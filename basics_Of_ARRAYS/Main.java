@@ -32,6 +32,8 @@ public class Main {
 
 		System.out.println("Array traversal");
 		sda.traversalArray();
+		
+		sda.searchInArray(33);
 	}
 
 }
