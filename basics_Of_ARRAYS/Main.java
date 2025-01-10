@@ -11,8 +11,9 @@ public class Main {
 		intArray[1] = 44;
 		intArray[2] = 88;
 		intArray[3] = 77;
-		
+		String[] name = {"STEPHEN","JAMES CLEAR","ROYAL"};
 		System.out.println(Arrays.toString(intArray));
+		System.out.println(Arrays.toString(name));
 
 	}
 
