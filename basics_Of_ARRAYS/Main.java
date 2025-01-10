@@ -14,22 +14,24 @@ public class Main {
 		String[] name = { "STEPHEN", "JAMES CLEAR", "ROYAL" };
 		System.out.println(Arrays.toString(intArray));
 		System.out.println(Arrays.toString(name));
-		SingleDimensionArray sda = new SingleDimensionArray(5);
-		
+		SingleDimensionArray sda = new SingleDimensionArray(8);
+
 		sda.insert(0, 12);
-		sda.insert(1,33);
+		sda.insert(1, 33);
 		sda.insert(2, 11);
 		sda.insert(3, 40);
 		sda.insert(4, 99);
 		sda.insert(2, 66);
 		sda.insert(5, 44);
-		
+
 		var firstElement = sda.arr[0];
 		var thirdElement = sda.arr[2];
-		var ele=sda.arr[6];
+
 		System.out.println(firstElement);
 		System.out.println(thirdElement);
-		System.out.println(ele);
+
+		System.out.println("Array traversal");
+		sda.traversalArray();
 	}
 
 }
