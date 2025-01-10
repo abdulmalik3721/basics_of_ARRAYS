@@ -11,10 +11,18 @@ public class Main {
 		intArray[1] = 44;
 		intArray[2] = 88;
 		intArray[3] = 77;
-		String[] name = {"STEPHEN","JAMES CLEAR","ROYAL"};
+		String[] name = { "STEPHEN", "JAMES CLEAR", "ROYAL" };
 		System.out.println(Arrays.toString(intArray));
 		System.out.println(Arrays.toString(name));
-
+		SingleDimensionArray sda = new SingleDimensionArray(5);
+		
+		sda.insert(0, 12);
+		sda.insert(1,33);
+		sda.insert(2, 11);
+		sda.insert(3, 40);
+		sda.insert(4, 99);
+		sda.insert(2, 66);
+		sda.insert(5, 44);
 	}
 
 }
