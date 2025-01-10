@@ -23,6 +23,13 @@ public class Main {
 		sda.insert(4, 99);
 		sda.insert(2, 66);
 		sda.insert(5, 44);
+		
+		var firstElement = sda.arr[0];
+		var thirdElement = sda.arr[2];
+		var ele=sda.arr[6];
+		System.out.println(firstElement);
+		System.out.println(thirdElement);
+		System.out.println(ele);
 	}
 
 }
