@@ -34,6 +34,9 @@ public class Main {
 		sda.traversalArray();
 		
 		sda.searchInArray(33);
+		sda.deleteValue(2);
+		sda.searchInArray(66);
+		System.out.println(sda.arr[2]);
 	}
 
 }

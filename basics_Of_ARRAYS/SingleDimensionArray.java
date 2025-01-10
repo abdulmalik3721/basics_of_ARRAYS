@@ -51,5 +51,22 @@ public class SingleDimensionArray {
 		}
 		System.out.println(valueToSearch + " value not found");
 	}
+	
+	//Delete value from array
+	public void deleteValue(int valueToDelete) {
+		try {
+			arr[valueToDelete]=Integer.MIN_VALUE;
+			System.out.println("successfully deleted");
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("the value provided is not in the range of array");
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
 
 }
